@@ -1,13 +1,51 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sittersoncall</title>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Sitters On Call - Home</title>
   </head>
+
   <body>
+
+    <nav>
+        <div id="nav-placeholder"></div>
+        <load src="./nav.html" />
+    </nav>
+
+    <!-- Kept justify-center, text-center, and shifted the background crop to the right using bg-[85%_center] -->
+<header class="relative w-full min-h-137.5 bg-[url(/assets/jexo-n9tLDIhFvXY-unsplash.jpg)] bg-cover bg-position-[85%_center] flex items-center justify-center text-center py-12 px-6">
+  
+  <!-- Radial Mask: Darker in the center to make white text pop, fading out to reveal the dog beautifully on the right -->
+  <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.2)_60%,transparent_100%)]"></div>
+
+  <!-- Content Container: Cleanly centered -->
+  <div class="relative z-10 max-w-4xl px-6 flex flex-col items-center gap-6">
+    
+    <!-- Headline: Centered with crisp shadows -->
+    <h1 class="text-off-white font-montserrat font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)] [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
+      Trusted In-Home Care<br class="hidden sm:inline"> When You're Away
+    </h1>
+    
+    <!-- Subtext -->
+    <p class="text-bg-cream font-inter font-semibold text-base sm:text-lg md:text-xl max-w-2xl leading-relaxed drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
+      Your pets stay safe, calm, and happy in the comfort of their own home. We provide experienced, passionate sitters who follow your exact routine.
+    </p>
+    
+    <!-- CTA Button -->
+    <button class="mt-4 bg-accent text-white font-bold px-10 py-4 rounded-full shadow-lg hover:bg-[#b45309] transition-all transform hover:scale-105 tracking-wide">
+      Book a Sitter
+    </button>
+    
+  </div>
+
+</header>
+
     <div id="app"></div>
     <h1>Hello World</h1>
   </body>
+
 </html>

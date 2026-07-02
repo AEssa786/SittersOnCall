@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme{
+  --color-bg-cream: #EFE3C3;
+  --color-primary: #1E3F20;
+  --color-accent: #D97706;
+  --color-text: #2D312E;
+  --color-off-white: #F8F9FA;
+}
+
+body{
+  @apply bg-bg-cream text-text antialiased;
+  margin: 0 auto;
+}
+
+a{
+    @apply font-mono text-off-white transition-colors duration-200;
+}
+
+a:hover{
+    @apply text-accent no-underline;
+}
