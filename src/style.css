@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap');
 @import "tailwindcss";
 
 @theme{
-  --color-bg-cream: #EFE3C3;
+  --color-bg-cream: #FAEED1;
   --color-primary: #1E3F20;
   --color-accent: #D97706;
   --color-text: #2D312E;
   --color-off-white: #F8F9FA;
+
+  --font-heading: "Poppins", "Montserrat", sans-serif;
+  --font-body: "Inter", "Open Sans", sans-serif;
 }
 
 body{
@@ -14,9 +18,9 @@ body{
 }
 
 a{
-    @apply font-mono text-off-white transition-colors duration-200;
+    @apply font-mono transition-colors duration-200;
 }
 
 a:hover{
-    @apply text-accent no-underline;
+    @apply no-underline;
 }

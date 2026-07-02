@@ -16,36 +16,171 @@
         <load src="./nav.html" />
     </nav>
 
-    <!-- Kept justify-center, text-center, and shifted the background crop to the right using bg-[85%_center] -->
-<header class="relative w-full min-h-137.5 bg-[url(/assets/jexo-n9tLDIhFvXY-unsplash.jpg)] bg-cover bg-position-[85%_center] flex items-center justify-center text-center py-12 px-6">
-  
-  <!-- Radial Mask: Darker in the center to make white text pop, fading out to reveal the dog beautifully on the right -->
-  <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.2)_60%,transparent_100%)]"></div>
 
-  <!-- Content Container: Cleanly centered -->
-  <div class="relative z-10 max-w-4xl px-6 flex flex-col items-center gap-6">
-    
-    <!-- Headline: Centered with crisp shadows -->
-    <h1 class="text-off-white font-montserrat font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)] [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
-      Trusted In-Home Care<br class="hidden sm:inline"> When You're Away
-    </h1>
-    
-    <!-- Subtext -->
-    <p class="text-bg-cream font-inter font-semibold text-base sm:text-lg md:text-xl max-w-2xl leading-relaxed drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
-      Your pets stay safe, calm, and happy in the comfort of their own home. We provide experienced, passionate sitters who follow your exact routine.
-    </p>
-    
-    <!-- CTA Button -->
-    <button class="mt-4 bg-accent text-white font-bold px-10 py-4 rounded-full shadow-lg hover:bg-[#b45309] transition-all transform hover:scale-105 tracking-wide">
-      Book a Sitter
-    </button>
-    
-  </div>
+    <header class="font-heading relative w-full min-h-137.5 bg-[url(/assets/jexo-n9tLDIhFvXY-unsplash.jpg)] bg-cover bg-position-[85%_center] bg-slate-700 flex items-center justify-center text-center py-12 px-6">
+      
+      <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.2)_60%,transparent_100%)]"></div>
 
-</header>
+      <div class="relative z-10 max-w-4xl px-6 flex flex-col items-center gap-6">
+        
+          <h1 class="text-off-white font-montserrat font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)] [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
+            Trusted In-Home Care<br class="hidden sm:inline"> When You're Away
+          </h1>
 
-    <div id="app"></div>
-    <h1>Hello World</h1>
+          <p class="text-bg-cream font-inter font-semibold text-base sm:text-lg md:text-xl max-w-2xl leading-relaxed drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
+            Your pets stay safe, calm, and happy in the comfort of their own home. We provide experienced, passionate sitters who follow your exact routine.
+          </p>
+
+          <a class="mt-4 bg-accent text-white font-bold px-10 py-4 rounded-full shadow-lg hover:bg-[#b45309] transition-all transform hover:scale-105 tracking-wide">
+            Book a Sitter
+          </a>
+        
+      </div>
+    </header>
+
+    <!-- Trust Bar Section -->
+    <section class="border-y border-primary/30 py-6 bg-off-white/30 items-center w-full text-center">
+        <div class="mx-auto flex flex-row w-fit">
+          <div class="mr-20">
+            <img src="/assets/trust.png" class="h-20">
+            <p>Vetted Sitters</p>
+          </div>
+          <div class="mr-20">
+            <img src="/assets/house.png" class="h-20">
+            <p>In-home care</p>
+          </div>
+          <div class="mr-20">
+            <img src="/assets/dog.png" class="h-20">
+            <p>All Pets Welcome</p>
+          </div>
+          <div>
+            <img src="/assets/location.png" class="h-20">
+            <p>Gauteng Based</p>
+          </div>
+        </div>
+        
+    </section>
+
+    <!-- Mini About Section -->
+    <section class="w-full py-16 px-6 md:px-16">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+
+        <div class="w-full md:w-1/2 flex flex-col items-start gap-6">
+          <div class="w-full text-center md:text-left border-t border-primary/10 pt-12">
+            <span class="text-accent font-inter font-bold text-xs md:text-sm tracking-widest uppercase">WHAT DO WE DO?</span>
+            <h2 class="text-primary font-heading fon-bold text-3xl sm:text-4xl leading-tight">A Little About Us</h2>
+          </div>
+
+          <p class="text-text font-body text-base sm:text-lg leading-relaxed">
+            Sitters On Call provides exclusive, overnight in-home pet care across Gauteng. Our sitters aren't just checked-in workers—they are vetted, highly experienced professionals 
+            who are genuinely passionate about animals. We prioritize trust, deep emotional care, and responsibility, 
+            ensuring your pets are loved and cared for exactly as if they were our own.
+          </p>
+          <a class="text-primary underline decoration-accent hover:cursor-pointer hover:italic hover:text-accent">Learn More About Us</a>
+
+          <div class="mt-3">
+            <ul class="flex space-x-4">
+              <li class="flex flex-col">
+                <img src="/assets/heart.png" class="w-20 mx-auto">
+                <span class="font-semibold">Loved Like Our Own</span>
+              </li>
+              <li>
+                <img src="/assets/house2.png" class="w-20 mx-auto">
+                <span class="font-semibold">Safe in Their Own Home</span>
+              </li>
+              <li>
+                <img src="/assets/dog2.png" class="w-20 mx-auto">
+                <span class="font-semibold">No Broken Routines</span>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+
+        <div class="w-full md:w-1/2 h-100 rounded-2xl overflow-hidden shadow-md">
+          <img src="/assets/eduard-delputte-SzbhSlVFIbM-unsplash.jpg" class="w-full h-full object-cover object-center" alt="Calm, happy pet resting at home">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="w-full bg-off-white/30 pb-20 px-6 md:px-16 lg:px-24">
+      <div class="max-w-7xl mx-auto flex flex-col gap-10">
+        
+        <div class="w-full text-center md:text-left border-t border-primary/10 pt-12">
+          <span class="text-accent font-inter font-bold text-xs md:text-sm tracking-widest uppercase">Our Core Offerings</span>
+          <h2 class="text-primary font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl mt-2">
+            Tailored Services for Every Pet's Needs
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+          
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
+            
+            <div class="p-3 bg-primary/10 text-primary rounded-xl flex items-center justify-center w-12 h-12">
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            </div>
+            
+            <h3 class="text-primary font-montserrat font-bold text-lg">In-Home Pet Sitting</h3>
+            <p class="text-text font-inter text-sm leading-relaxed">
+              Dedicated daytime companionship, meticulous feeding, and hygienic care entirely within your pet's own home environment.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
+            
+            <div class="p-3 bg-primary/10 text-primary rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+            </div>
+            
+            <h3 class="text-primary font-montserrat font-bold text-lg">Overnight Care</h3>
+            <p class="text-text font-inter text-sm leading-relaxed">
+              Full overnight stays providing continuous supervision, evening feeding, medication management, and property peace of mind.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
+            
+            <div class="p-3 bg-primary/10 text-primary rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+            </div>
+            
+            <h3 class="text-primary font-montserrat font-bold text-lg">Feeding Visits</h3>
+            <p class="text-text font-inter text-sm leading-relaxed">
+              Punctual scheduled check-ins precisely following your pet's dietary timelines, alongside refreshing water and litter box cleanup.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
+            
+            <div class="p-3 bg-primary/10 text-primary rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+            </div>
+            
+            <h3 class="text-primary font-montserrat font-bold text-lg">Emergency Cover</h3>
+            <p class="text-text font-inter text-sm leading-relaxed">
+              Reliable emergency assistance and priority medical management protocols ready if an unexpected vet situation occurs.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="w-full flex justify-center">
+          <a href="#how-it-works" class="inline-flex items-center gap-2 border-2 border-primary text-primary font-inter font-bold px-8 py-3 rounded-full hover:bg-primary hover:text-[#FAF3E0] transition-all text-sm tracking-wide group">
+            See how our booking process works
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transform transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
   </body>
 
 </html>
