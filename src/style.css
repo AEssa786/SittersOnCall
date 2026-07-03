@@ -13,7 +13,7 @@
 }
 
 body{
-  @apply bg-bg-cream text-text antialiased;
+  @apply bg-bg-cream text-text antialiased font-medium text-[16px];
   margin: 0 auto;
 }
 
