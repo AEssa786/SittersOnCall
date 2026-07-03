@@ -13,12 +13,12 @@
 }
 
 body{
-  @apply bg-bg-cream text-text antialiased font-medium text-[16px];
+  @apply bg-bg-cream text-text antialiased font-body font-medium text-[16px];
   margin: 0 auto;
 }
 
 a{
-    @apply font-mono transition-colors duration-200;
+    @apply font-body transition-colors duration-200;
 }
 
 a:hover{
