@@ -40,22 +40,22 @@
 
     <!-- Trust Bar Section -->
     <section class="border-y border-primary/30 py-6 bg-off-white/30 items-center w-full text-center">
-        <div class="mx-auto flex flex-row w-fit">
-          <div class="mr-20">
-            <img src="/assets/trust.png" class="h-20">
-            <p>Vetted Sitters</p>
+        <div class="mx-auto flex flex-row w-full md:w-fit gap-6">
+          <div class="md:mr-20">
+            <img src="/assets/trust.png" class=" h-10 mx-auto md:h-20">
+            <p class="text-sm">Vetted Sitters</p>
           </div>
-          <div class="mr-20">
-            <img src="/assets/house.png" class="h-20">
-            <p>In-home care</p>
+          <div class="md:mr-20">
+            <img src="/assets/house.png" class="h-10 mx-auto md:h-20">
+            <p class="text-sm">In-home care</p>
           </div>
-          <div class="mr-20">
-            <img src="/assets/dog.png" class="h-20">
-            <p>All Pets Welcome</p>
+          <div class="md:mr-20">
+            <img src="/assets/dog.png" class="h-10 mx-auto md:h-20">
+            <p class="text-sm">All Pets Welcome</p>
           </div>
           <div>
-            <img src="/assets/location.png" class="h-20">
-            <p>Gauteng Based</p>
+            <img src="/assets/location.png" class="h-10 mx-auto md:h-20">
+            <p class="text-sm">Gauteng Based</p>
           </div>
         </div>
         
@@ -115,8 +115,9 @@
           </h2>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
           
+          <!-- In-home Pet Sitting Card -->
           <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
             
             <div class="p-3 bg-primary/10 text-primary rounded-xl flex items-center justify-center w-12 h-12">
@@ -132,6 +133,7 @@
             </p>
           </div>
 
+          <!-- Overnight care Card -->
           <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
             
             <div class="p-3 bg-primary/10 text-primary rounded-xl">
@@ -144,6 +146,7 @@
             </p>
           </div>
 
+          <!-- Feeding Visits Card -->
           <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
             
             <div class="p-3 bg-primary/10 text-primary rounded-xl">
@@ -156,6 +159,7 @@
             </p>
           </div>
 
+          <!-- Emergency Cover Card -->
           <div class="bg-white p-6 rounded-2xl shadow-sm border border-primary/5 flex flex-col items-start gap-4 hover:shadow-md transition-all">
             
             <div class="p-3 bg-primary/10 text-primary rounded-xl">
@@ -178,6 +182,49 @@
             </svg>
           </a>
         </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="max-w-7xl mx-auto flex flex-col gap-10">
+
+        <div class="w-full text-center md:text-left border-t border-primary/10 pt-12">
+          <span class="text-accent font-inter font-bold text-xs md:text-sm tracking-widest uppercase">How Does it Work?</span>
+          <h2 class="text-primary font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl mt-2">
+            Want to Book a Sitter? 
+          </h2>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-10">
+          <div class="bg-off-white md:mx-0 mx-auto w-70 md:w-80 px-10 py-5 rounded-2xl shadow-sm border border-primary/5 hover:shadow-md transition-all">
+            <h3 class="font-body text-primary font-semibold text-2xl text-center flex flex-col">
+              <span class="mx-auto">1.</span>
+              Contact Us
+            </h3>
+          </div>
+
+          <div class="bg-off-white md:mx-0 mx-auto w-70 md:w-80 px-10 py-5 rounded-2xl shadow-sm border border-primary/5 hover:shadow-md transition-all">
+            <h3 class="font-body text-primary font-semibold text-center text-2xl flex flex-col">
+              <span class="mx-auto">2.</span>
+              Tell us about your pet
+            </h3>
+          </div>
+
+          <div class="bg-off-white md:mx-0 mx-auto w-70 md:w-80 px-10 py-5 rounded-2xl shadow-sm border border-primary/5 hover:shadow-md transition-all">
+            <h3 class="font-body text-primary font-semibold text-2xl text-center flex flex-col">
+              <span class="mx-auto">3.</span>
+              We arrange sitter 
+            </h3>
+          </div>
+
+          <div class="bg-off-white md:mx-0 mx-auto w-70 md:w-80 px-10 py-5 rounded-2xl shadow-sm border border-primary/5 hover:shadow-md transition-all">
+            <h3 class="font-body text-primary text-center font-semibold text-2xl flex flex-col">
+              <span class="mx-auto">4.</span>
+              Care begins 
+            </h3>
+          </div>
+        </div>
+
       </div>
     </section>
 
