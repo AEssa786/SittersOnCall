@@ -3,10 +3,101 @@
 
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/webp" href="/assets/logo soc.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
+
+    <!-- Primary SEO Title Tag -->
+    <title>Trusted In-Home Pet Sitting Gauteng | Overnight Pet Care</title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="Trusted in-home pet sitting in Gauteng. Our overnight pet sitters provide expert care in Johannesburg & Pretoria. Vetted, background-checked & reliable.">
+
+    <!-- Geographic SEO Meta Tags -->
+    <meta name="geo.region" content="ZA-GT" />
+    <meta name="geo.placename" content="Gauteng" />
+    <meta name="geo.position" content="-26.2041;28.0473" />
+    <meta name="ICBM" content="-26.2041, 28.0473" />
+
+    <!-- Open Graph Tags (Crucial for Link Sharing Visibility on WhatsApp/Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trusted In-Home Pet Sitting Gauteng | Sitters On Call">
+    <meta property="og:description" content="Trusted overnight pet sitting across Gauteng. Experienced, background-checked sitters keeping your pets safe and calm at home.">
+    <meta property="og:image" content="<!-- INSERT_DOMAIN_HERE -->/assets/logo soc.webp">
+    <meta property="og:url" content="<!-- INSERT_DOMAIN_HERE -->">
+
+    <link rel="preload" fetchpriority="high" as="image" href="/assets/Calm_Pet_in_Gauteng_Home.webp" type="image/webp">
+
+    <!-- Schema.org Local Business Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "PetService",
+        "name": "Sitters On Call",
+        "@id": "<!-- INSERT_DOMAIN_HERE -->/#business",
+        "url": "<!-- INSERT_DOMAIN_HERE -->",
+        "image": "<!-- INSERT_DOMAIN_HERE -->/assets/logo soc.webp",
+        "description": "Premium in-home pet care and overnight pet sitting service based in Gauteng, serving Johannesburg and Pretoria.",
+        "founder": {
+            "@type": "Person",
+            "name": "Mekail Ramjee"
+        },
+        "serviceType": [
+            "In-Home Pet Sitting",
+            "Overnight Pet Care",
+            "Pet Feeding"
+        ],
+        "logo": "<!-- INSERT_DOMAIN_HERE -->/assets/logo soc.webp",
+        "telephone": "+27645237885",
+        "email": "mekailramjee@gmail.com",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Gauteng",
+            "addressCountry": "ZA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-26.2041",
+          "longitude": "28.0473"
+        },
+        "areaServed": [
+            {
+                "@type": "AdministrativeArea",
+                "name": "Gauteng"
+            },
+            {
+                "@type": "AdministrativeArea",
+                "name": "Johannesburg"
+            },
+            {
+                "@type": "AdministrativeArea",
+                "name": "Pretoria"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org Website Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "<!-- INSERT_DOMAIN_HERE -->",
+        "name": "Sitters On Call"
+    }
+    </script>
     <link rel="stylesheet" href="src/style.css">
-    <title>Sitters On Call - Home</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMV9VX16E5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZMV9VX16E5');
+    </script>
   </head>
 
   <body>
@@ -17,7 +108,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="font-heading relative w-full min-h-137.5 bg-[url(/assets/jexo-n9tLDIhFvXY-unsplash.jpg)] bg-cover bg-position-[85%_center] bg-slate-700 flex items-center justify-center text-center py-12 px-6">
+    <header class="font-heading relative w-full min-h-137.5 bg-[url(/assets/Calm_Pet_in_Gauteng_Home.webp)] bg-cover bg-position-[85%_center] bg-slate-700 flex items-center justify-center text-center py-12 px-6">
       
       <!-- A slight, dark mask over the background image to make sure the text is visible -->
       <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.2)_60%,transparent_100%)]"></div>
@@ -77,19 +168,19 @@
     <section class="border-y border-primary/30 py-6 bg-off-white/30 items-center w-full text-center">
         <div class="mx-auto flex flex-row w-full md:w-fit gap-6">
           <div class="md:mr-20">
-            <img src="/assets/trust.png" class=" h-10 mx-auto md:h-20">
+            <img src="/assets/trust.webp" loading="lazy" alt="Icon Showing trusted sitters, indicating the service can be trusted" class=" h-10 mx-auto md:h-20 w-auto">
             <p class="text-sm">Vetted Sitters</p>
           </div>
           <div class="md:mr-20">
-            <img src="/assets/house.png" class="h-10 mx-auto md:h-20">
+            <img src="/assets/house.webp" loading="lazy" alt="Icon Showing a house, representing In-Home Pet Sitting" class="h-10 mx-auto md:h-20 w-auto">
             <p class="text-sm">In-home care</p>
           </div>
           <div class="md:mr-20">
-            <img src="/assets/dog.png" class="h-10 mx-auto md:h-20">
+            <img src="/assets/dog.webp" loading="lazy" alt="Icon of a dog, showing pet sitting is available for all pets" class="h-10 mx-auto md:h-20 w-auto">
             <p class="text-sm">All Pets Welcome</p>
           </div>
           <div>
-            <img src="/assets/location.png" class="h-10 mx-auto md:h-20">
+            <img src="/assets/location.webp" loading="lazy" alt="Location Icon showing the service is based in Gauteng" class="h-10 mx-auto md:h-20 w-auto">
             <p class="text-sm">Gauteng Based</p>
           </div>
         </div>
@@ -116,15 +207,15 @@
           <div class="mt-3">
             <ul class="flex space-x-4">
               <li class="flex flex-col">
-                <img src="/assets/heart.png" class="w-20 mx-auto">
+                <img src="/assets/heart.webp" loading="lazy" alt="Heart Icon showing the sitters love the pets they care for" class="w-20 h-auto mx-auto">
                 <span class="font-semibold">Loved Like Our Own</span>
               </li>
               <li>
-                <img src="/assets/house2.png" class="w-20 mx-auto">
+                <img src="/assets/house2.webp" loading="lazy" alt="Icon of a house showing the pets will be safe in their own homes" class="w-20 h-auto mx-auto">
                 <span class="font-semibold">Safe in Their Own Home</span>
               </li>
               <li>
-                <img src="/assets/dog2.png" class="w-20 mx-auto">
+                <img src="/assets/dog2.webp" loading="lazy" alt="icon of a happy dog showing it is comfortable" class="w-20 h-auto mx-auto">
                 <span class="font-semibold">No Broken Routines</span>
               </li>
             </ul>
@@ -133,7 +224,7 @@
         </div>
 
         <div class="w-full md:w-1/2 h-100 rounded-2xl overflow-hidden shadow-md">
-          <img src="/assets/eduard-delputte-SzbhSlVFIbM-unsplash.jpg" class="w-full h-full object-cover object-center" alt="Calm, happy pet resting at home">
+          <img src="/assets/eduard-delputte-SzbhSlVFIbM-unsplash.webp" loading="lazy" class="w-full h-full object-cover object-center" alt="Calm, happy pet resting at home">
         </div>
 
       </div>
@@ -299,7 +390,7 @@
           </div>
           
           <div class="w-full ">
-            <img src="/assets/bailey-burton-xgOnMTEcrEw-unsplash.jpg" class="md:h-150 rounded-2xl md:mt-0 mt-5 md:w-150">
+            <img src="/assets/bailey-burton-xgOnMTEcrEw-unsplash.webp" loading="lazy" alt="Image of a happy dog being pet by a sitter" class="md:h-150 w-auto rounded-2xl md:mt-0 mt-5 md:w-150">
           </div>
 
         </div>        
