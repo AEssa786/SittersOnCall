@@ -12,6 +12,7 @@ export default defineConfig({
         input: {
             main: "index.html",
             about: "about.html",
+            gallery: "gallery.html",
             formComplete: "form-complete.html",
         }
     }
